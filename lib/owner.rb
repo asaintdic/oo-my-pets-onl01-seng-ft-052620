@@ -28,7 +28,7 @@ class Owner #no writer for name, so attr_reader only
   end
   
   def cats 
-    Cat.all.collect {|cat| @cats << cat == self}
+    #Cat.all.collect {|cat| @cats << cat == self}
     @cats
   end
   
